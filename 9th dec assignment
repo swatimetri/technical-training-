@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int v,w,tw,fw;
+    scanf("%d",&v);
+    scanf("%d",&w);
+    if(w>2||w%2!=0||v>w||v<1)
+    printf("invalid input");
+    else
+    {
+        fw=(w-2*v)/2;
+        fw=v-fw;
+        printf("two wheeler=%d fouwheler=%d",tw,fw);
+
+    }
+}
